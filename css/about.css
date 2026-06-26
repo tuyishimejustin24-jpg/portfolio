@@ -1,0 +1,68 @@
+*
+::before,
+::after{
+   margin: 0; 
+   padding: 0;
+}
+header{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    position: fixed;
+    width: 85%;
+    top: 0;
+}
+#logo h1{
+    font-size: 20;
+    background: linear-gradient(to right, black ,red (128, 124, 0, 0.696));
+    -webkit-background-clip: content-box;
+    -webkit-text-fill-color: transparent;
+}
+#nav-link {
+  display: flex;
+  gap: 20px; /* adds space between menu items */
+}
+
+#nav-link a {
+  color: black;
+  text-decoration: none;
+}
+
+#active a {
+  text-decoration: underline;
+}
+
+
+main{
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  padding-left: 75px; 
+  
+}
+#content{
+  margin-top: 150px;
+} 
+#content h1{
+    width: 300px;
+    font-size: 65px;
+}
+#content P{
+    width: 450PX;
+    font-size: 30PX;
+} 
+#button-left{
+  background-color: #fdb703;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  width: 100px;
+
+}  
+   
+
+
